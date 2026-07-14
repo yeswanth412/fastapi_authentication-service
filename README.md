@@ -123,3 +123,43 @@ uvicorn main:app --reload
 ```
 http://127.0.0.1:8000/docs
 ```
+
+## 📌 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /register | Register a new user |
+| POST | /login | Authenticate user |
+| GET | /profile | Get authenticated user profile |
+| POST | /refresh | Refresh access token |
+| POST | /logout | Logout user |
+| GET | /verify-email | Verify email address |
+| POST | /forgot-password | Send password reset email |
+| POST | /reset-password | Reset user password |
+
+
+## 📚 What I Learned
+
+Through this project, I gained hands-on experience with:
+
+- Building REST APIs using FastAPI
+- Implementing JWT Authentication
+- Secure password hashing using bcrypt
+- Email verification using SMTP
+- Password reset workflows
+- Repository Pattern architecture
+- MongoDB CRUD operations
+- Environment variable management
+- API documentation with Swagger UI
+
+
+
+## 🚀 Future Improvements
+
+- Google OAuth 2.0 Login
+- GitHub OAuth Login
+- Docker support
+- Redis for token blacklisting
+- Unit and integration testing
+- CI/CD with GitHub Actions
+- Role-Based Access Control (RBAC)
